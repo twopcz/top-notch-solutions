@@ -4,10 +4,8 @@ import React from 'react';
 
 export default function Banner() {
     return (
-        <Container>
-            <Row>
-                <img src={banner} alt="banner" />
-            </Row>
-        </Container>
+        <Row className="w-100 mx-0">
+            <img className="px-0" src={banner} alt="banner" />
+        </Row>
     );
 }
