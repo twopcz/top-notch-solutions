@@ -1,0 +1,38 @@
+import { Container, Row, Col } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
+
+export default function Footer() {
+    return (
+        <footer>
+            <Navbar bg="dark" variant="dark">
+                <Container className="justify-content-center pt-5">
+                    <Row className="w-100">
+                        <Col>
+                            <h4 className="text-light font-weight-bold">
+                                ABOUT US
+                            </h4>
+                            <p className="text-muted">
+                                We are a small group of individuals in Las
+                                Vegas, Nevada who offer all types of support on:
+                                Computers, Networks, On/Offsite Servers,
+                                Security Cameras, Cell Phones, Tablets,
+                                Multifunction Printers, and many more.
+                            </p>
+                        </Col>
+                        <Col>
+                            <h4 className="text-light">NAVIGATION</h4>
+                            <Nav.Link className="px-0" href="#">
+                                Home
+                            </Nav.Link>
+                            <Nav.Link className="px-0" href="#">
+                                Pricing
+                            </Nav.Link>
+                        </Col>
+                    </Row>
+                </Container>
+            </Navbar>
+        </footer>
+    );
+}
