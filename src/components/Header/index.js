@@ -6,21 +6,21 @@ import React from 'react';
 export default function Header() {
     const navItems = [
         {
-            title: `Home`,
+            title: `HOME`,
             url: `/`
         },
         {
-            title: `Pricing`,
+            title: `PRICING`,
             url: `/pricing`
         },
         {
-            title: `Contact`,
+            title: `CONTACT`,
             url: `/contact`
         }
     ];
 
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">Top Notch LV</Navbar.Brand>
                 <Nav className="justify-content-between">
