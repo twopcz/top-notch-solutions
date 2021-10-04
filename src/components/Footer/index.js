@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className="">
             <Navbar bg="dark" variant="dark">
-                <Container className="justify-content-center pt-5">
+                <Container className="justify-content-center py-5">
                     <Row className="w-100">
                         <Col>
                             <h4 className="text-light font-weight-bold">
@@ -20,6 +20,13 @@ export default function Footer() {
                                 Security Cameras, Cell Phones, Tablets,
                                 Multifunction Printers, and many more.
                             </p>
+                        </Col>
+                        <Col>
+                            <h4 className="text-light">CONTACT</h4>
+                            <div className="text-muted">
+                                <p>Email: Andrew@topnotchlv.com</p>
+                                <p>Phone: 702-758-4044</p>
+                            </div>
                         </Col>
                         <Col>
                             <h4 className="text-light">NAVIGATION</h4>
