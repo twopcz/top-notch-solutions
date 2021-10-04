@@ -28,15 +28,6 @@ export default function Footer() {
                                 <p>Phone: 702-758-4044</p>
                             </div>
                         </Col>
-                        <Col>
-                            <h4 className="text-light">NAVIGATION</h4>
-                            <Nav.Link className="px-0" href="#">
-                                Home
-                            </Nav.Link>
-                            <Nav.Link className="px-0" href="#">
-                                Pricing
-                            </Nav.Link>
-                        </Col>
                     </Row>
                 </Container>
             </Navbar>
